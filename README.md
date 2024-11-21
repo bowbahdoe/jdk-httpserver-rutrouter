@@ -16,6 +16,8 @@ For more specific information on how to structure routes, refer to the [io.norbe
 examples and documentation.
 
 ```java
+import module dev.mccue.jdk.httpserver.rutrouter;
+
 void main() {
     var router = RutRouter.builder()
             .get("/hello/<name>", e -> {
